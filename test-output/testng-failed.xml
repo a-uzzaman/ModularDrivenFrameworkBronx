@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="fireFox test(failed)">
-    <parameter name="browser" value="ch"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScript.skipEnabledDisabled">
+      <class name="TestScript.DataProviderTest">
         <methods>
-          <include name="skipTest"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
+          <include name="dataProviderTestCase" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- TestScript.skipEnabledDisabled -->
+      </class> <!-- TestScript.DataProviderTest -->
     </classes>
-  </test> <!-- fireFox test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

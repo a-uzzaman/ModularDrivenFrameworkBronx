@@ -1,31 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-29T00:18:47Z" name="Suite" finished-at="2019-07-29T00:18:47Z" duration-ms="197">
+  <suite started-at="2019-08-04T18:53:07Z" name="Default suite" finished-at="2019-08-04T18:53:57Z" duration-ms="49884">
     <groups>
     </groups>
-    <test started-at="2019-07-29T00:18:47Z" name="chrome test" finished-at="2019-07-29T00:18:47Z" duration-ms="85">
-      <class name="TestScript.prioritizeTests">
-        <test-method signature="anoPriorityTest()[pri:0, instance:TestScript.prioritizeTests@3857f613]" started-at="2019-07-29T00:18:47Z" name="anoPriorityTest" finished-at="2019-07-29T00:18:47Z" duration-ms="16" status="PASS">
+    <test started-at="2019-08-04T18:53:07Z" name="Default test" finished-at="2019-08-04T18:53:57Z" duration-ms="49884">
+      <class name="TestScript.DataProviderTest">
+        <test-method signature="dataProviderTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestScript.DataProviderTest@4b2bac3f]" started-at="2019-08-04T18:53:07Z" name="dataProviderTestCase" data-provider="Authentication" finished-at="2019-08-04T18:53:35Z" duration-ms="27936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[talentTEK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- anoPriorityTest -->
-        <test-method signature="bnoPriorityTest3()[pri:0, instance:TestScript.prioritizeTests@3857f613]" started-at="2019-07-29T00:18:47Z" name="bnoPriorityTest3" finished-at="2019-07-29T00:18:47Z" duration-ms="5" status="PASS">
+        </test-method> <!-- dataProviderTestCase -->
+        <test-method signature="dataProviderTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestScript.DataProviderTest@4b2bac3f]" started-at="2019-08-04T18:53:35Z" name="dataProviderTestCase" data-provider="Authentication" finished-at="2019-08-04T18:53:57Z" duration-ms="21884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[talentTEK2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bnoPriorityTest3 -->
-        <test-method signature="priority1Test()[pri:0, instance:TestScript.prioritizeTests@3857f613]" started-at="2019-07-29T00:18:47Z" name="priority1Test" finished-at="2019-07-29T00:18:47Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- priority1Test -->
-        <test-method signature="priority2Test()[pri:1, instance:TestScript.prioritizeTests@3857f613]" started-at="2019-07-29T00:18:47Z" name="priority2Test" finished-at="2019-07-29T00:18:47Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- priority2Test -->
-      </class> <!-- TestScript.prioritizeTests -->
-    </test> <!-- chrome test -->
-    <test started-at="2019-07-29T00:18:47Z" name="fireFox test" finished-at="2019-07-29T00:18:47Z" duration-ms="3">
-    </test> <!-- fireFox test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- dataProviderTestCase -->
+      </class> <!-- TestScript.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
